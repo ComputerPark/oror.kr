@@ -19,8 +19,11 @@
     width: 40%;
   }
   .masthead-brand {
-    margin-bottom: 10px!important;
-    padding-top: 0px!important;
+    margin-bottom: 10px !important;
+    padding-top: 0px !important;
+  }
+  .mastfoot {
+    padding-top: 0px !important;
   }
 }
 
