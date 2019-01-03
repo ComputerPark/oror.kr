@@ -13,15 +13,21 @@
 
     <!-- Custom styles for this template -->
     <link href="aboutme.css" rel="stylesheet">
+    <style type="text/css">
+      /* 링크에서 밑줄 없애기 */
+      a.no-uline { text-decoration:none }
+      /* 마우스 지나갈 때만 삭제 + 강제로 없애기 */
+      a.noul:hover { text-decoration:none !important }
+    </style>
   </head>
   <body>
     <header class="masthead mb-auto">
       <div class="inner">
         <div class="cover-container d-block w-100 h-100 p-3 mx-auto flex-column">
-          <h3 class="masthead-brand" href="https://oror.kr/">컴터박's Website</h3>
+          <h3 class="masthead-brand"><a href="https://oror.kr/" class="noul">컴터박's Website</a></h3>
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link" href="https://oror.kr/">Home</a>
-            <a class="nav-link active" href="https://oror.kr/about">About</a>
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link active" href="/about">About</a>
             <a class="nav-link" href="https://api.oror.kr">API</a>
             <a class="nav-link" href="https://cloud.oror.kr">Cloud</a>
             <a class="nav-link" href="https://github.com/computerpark">Github</a>
