@@ -1,31 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="컴터박's Website - 컴맹이 해커가 되기까지">
+    <meta name="description" content="컴터박의 웹사이트에 오신 것을 환영합니다. 이곳에서 저에 대해 알아가고 Github와 API 등을 방문하세요.">
+    
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#448AFF"/>
+    <meta name="msapplication-TileColor" content="#448AFF">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 
-    <title>oror.kr - 컴맹이 해커가 되기까지</title>
+    <title>컴터박 - 컴맹이 해커가 되기까지</title>
     
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <!-- Font Awsome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-    <!--js-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-    <style type="text/css">
+    <link href="../res/css/cover.css" rel="stylesheet">
+    <style>
       /* 링크에서 밑줄 없애기 */
       a.no-uline { text-decoration:none }
       a.no-uline:hover { text-decoration:none; color: #fff !important }
       /* 마우스 지나갈 때만 삭제 + 강제로 없애기 */
       a.noul:hover { text-decoration:none !important }
+      .btn { color: #fff !important; }
+      .btn:hover { color: #fff !important; }
     </style>
   </head>
   <body class="text-center">
@@ -36,26 +49,30 @@
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link active" href="/">Home</a>
             <a class="nav-link" href="/about">About</a>
-            <li class="nav-item dropdown" style="margin-left: 1rem">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://api.oror.kr">API</a>
-                <a class="dropdown-item" href="https://cloud.oror.kr">Cloud</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://home.oror.kr">Home Server</a>
-              </div>
-            </li>
+            <ul style="padding: 0px !important; margin:0px !important; list-style: none !important">
+              <li class="nav-item dropdown" style="margin-left: 1rem">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://api.oror.kr">API</a>
+                  <a class="dropdown-item" href="https://cloud.oror.kr">Cloud</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://home.oror.kr">Home Server</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://adios.oror.kr">새해 카운터 - Adios2018</a>
+                </div>
+              </li>
+            </ul>
             <a class="nav-link" href="/contact" style="margin-left: 1rem">Contact</a>
             <a class="nav-link" href="https://github.com/computerpark">Github</a>
           </nav>
         </div>
       </header>
-      <main role="main" class="inner cover">
-        <img class="logo" src="logo.png" alt="oror.kr 로고">
+      <main class="inner cover">
+        <img class="logo" src="res/img/logo.png" alt="oror.kr 로고">
         <h1 class="cover-heading">컴맹이 해커가 되기까지</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis   parturient   montes, nascetur ridiculus mus.</p>
+        <p class="lead">안녕하세요! 개발하는 중학생, 컴터박입니다. 저의 개인 웹사이트에 오신 것을 환영합니다. 이곳에서 저에 대해 알아가고 연락할 수 있습니다. API 서비스와 Github 계정 많이 방문해 주세요!</p>
         <p class="lead">
-        <a href="/about" class="btn btn-lg btn-outline-light">About Me</a>
+        <a href="/about" class="noul btn" style="border-radius: 10em; border: 2px solid #fff !important; font-size: 1.2rem; font-weight: 400">About Me</a>
         </p>
       </main>
     
@@ -92,6 +109,23 @@
           <p><a href="https://oror.kr/">oror.kr</a> - 컴터박 - 컴맹이 해커가 되기까지.</p>
         </div>
       </footer>
+      <!--
+      <p>
+       <a href="http://jigsaw.w3.org/css-validator/validator?uri=oror.kr%2Fres%2Fcss%2Fcover.css&profile=css3svg&usermedium=all&warning=no&vextwarning=true">
+        <img style="border:0;width:88px;height:31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+          alt="올바른 CSS입니다!" />
+        </a>
+      </p>
+    -->
     </div>
+
+    <!-- Font Awsome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--jquery, popper.js, bootstrapjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </body>
 </html>
