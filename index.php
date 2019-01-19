@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="컴터박의 웹사이트에 오신 것을 환영합니다. 이곳에서 저에 대해 알아가고 Github와 API 등을 방문하세요.">
-	<?php include '/res/php/fav.php' ?>
+	<?php include './res/php/fav.php' ?>
 
 	<title>컴터박 - 컴맹이 해커가 되기까지</title>
 
@@ -17,7 +17,7 @@
 	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 		<?php
 			$highlight = 'Home';
-			include '/res/php/navbar.php'
+			include './res/php/navbar.php'
 		?>
 		<main class="inner cover">
 			<img class="logo" src="res/img/logo.png" alt="oror.kr 로고">
@@ -27,7 +27,7 @@
 				<a href="/about" class="noul btn" style="border-radius: 10em; border: 2px solid #fff !important; font-size: 1.2rem; font-weight: 400">About Me</a>
 			</p>
 		</main>
-		<?php include '/res/php/footer.php' ?>
+		<?php include './res/php/footer.php' ?>
 	</div>
 
 	<!-- Font Awsome CSS -->
