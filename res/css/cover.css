@@ -120,7 +120,6 @@ body {
   font-weight: 700;
 }
 
-
 /*
  * Footer
  */
@@ -134,3 +133,25 @@ h3 {
   padding-bottom: 5px;
 }
 
+/* 링크에서 밑줄 없애기 */
+a.no-uline {
+  text-decoration:none;
+}
+
+a.no-uline:hover {
+  text-decoration:none;
+  color: #fff !important;
+}
+
+/* 마우스 지나갈 때만 삭제 + 강제로 없애기 */
+a.noul:hover {
+  text-decoration:none !important;
+}
+
+.btn {
+  color: #fff !important;
+}
+
+.btn:hover {
+  color: #fff !important;
+}
