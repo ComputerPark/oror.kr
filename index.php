@@ -22,7 +22,7 @@
 		<main class="inner cover">
 			<img class="logo" src="res/img/logo.png" alt="oror.kr 로고">
 			<h1 class="cover-heading">컴맹이 해커가 되기까지</h1>
-			<p class="lead">안녕하세요! 개발하는 중학생, 컴터박입니다. 저의 개인 웹사이트에 오신 것을 환영합니다. 이곳에서 저에 대해 알아가고 연락할 수 있습니다. API 서비스와 Github 계정 많이 방문해 주세요!</p>
+			<p class="lead">안녕하세요! 개발하는 중학생, 컴터박입니다. 저의 개인 웹사이트에 오신 것을 환영합니다. 이곳에서 저에 대해 알아가고 연락할 수 있습니다. 깃허브 많이 방문해 주세요!</p>
 			<p class="lead">
 				<a href="/about" class="noul btn" style="border-radius: 10em; border: 2px solid #fff !important; font-size: 1.2rem; font-weight: 400">About Me</a>
 			</p>
@@ -37,9 +37,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<script>
-      !function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","UA-132814194-1","auto"),ga("send","pageview");
-      // I know...
-	</script>
+	<?php include 'res/php/analytics.php' ?>
 </body>
 </html>
