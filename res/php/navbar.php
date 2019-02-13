@@ -16,7 +16,7 @@
 						<a class="dropdown-item" href="#">2018_Semicolon (서부정보)</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="https://api.oror.kr">API 콘솔</a>
-						<a class="dropdown-item" href="/projects">모든 프로젝트 보기</a>
+						<a class="dropdown-item" href="https://projects.oror.kr">모든 프로젝트 보기</a>
 					</div>
 				</li>
 			</ul>
